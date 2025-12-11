@@ -2,13 +2,32 @@
 
 [![Pre-release](https://img.shields.io/badge/version-v0.2.3-blue?style=for-the-badge&logo=github)](https://github.com/hnthap/lunar-calendar-api)
 [![GitHub Stars](https://img.shields.io/github/stars/hnthap/lunar-calendar-api?style=for-the-badge&logo=github)](https://github.com/hnthap/lunar-calendar-api/stargazers)
-[![Netlify Status](https://img.shields.io/netlify/335cf848-089d-4346-a941-85ce9813328b?style=for-the-badge&logo=netlify)](https://app.netlify.com/projects/lunar-calendar-api/deploys)
+<!--[![Netlify Status](https://img.shields.io/netlify/335cf848-089d-4346-a941-85ce9813328b?style=for-the-badge&logo=netlify)](https://app.netlify.com/projects/lunar-calendar-api/deploys)-->
 
-🔗 **[Try API](https://lunar-calendar-api.netlify.app)** | ✨ **[Try Web App](https://hnthap.github.io/lunar-calendar-converter-interface/)** | 📖 **[API Documentation](#api)**
+<!--🔗 **[Try API](https://lunar-calendar-api.netlify.app)** | -->
+✨ **[Try Web App](https://hnthap.github.io/lunar-calendar-converter-interface/)** | 📖 **[API Documentation](#api)**
 
 > *An API that converts between Gregorian and Lunar calendar systems, serving cultural and religious applications worldwide*
 
 The Lunar Calendar API is built using the astronomical formulae from *Astronomical Algorithms* by Jean Meeus, 1998 and Ho Ngoc Duc's Lunar calendar calculator.
+
+## ⚠️ Demo API Update
+
+> **The public demo endpoint (`lunar-calendar-api.netlify.app`) has been sunset due to excessive traffic.**
+
+**First, a huge thank you.** I built this project to learn, and I am incredibly grateful that so many of you have found it useful. The response has been amazing—to the point where the demo was handling **over 6,000 requests every day**!
+
+As I work full-time, I cannot maintain a paid infrastructure for a free demo.
+
+**The Good News: You can own it!**
+You can deploy your own private, unlimited instance of this API for free in less than 2 minutes.
+
+1.  **Click the button below** to deploy this to your own Netlify account.
+2.  You will get a new URL (e.g., `https://your-name-lunar-api.netlify.app`) to use in your apps.
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/hnthap/lunar-calendar-api)
+
+*Thank you for understanding and for supporting open source!*
 
 ## Why This API?
 
@@ -16,9 +35,18 @@ Lunar calendars guide over one billion people's cultural and religious practices
 
 ## Quick Start
 
+<!--
 Convert September 2nd, 2025 (in Gregorian calendar) to Lunar calendar in time zone +08:00:
+
 ```bash
 curl "https://lunar-calendar-api.netlify.app/v0/2/g2l?y=2025&m=9&d=2&z=8"
+```
+-->
+
+Run the server locally (see below), then convert September 2nd, 2025 (Gregorian) to Lunar calendar in time zone +08:00:
+
+```bash
+curl "http://localhost:3000/v0/2/g2l?y=2025&m=9&d=2&z=8"
 ```
 
 ## Usage
