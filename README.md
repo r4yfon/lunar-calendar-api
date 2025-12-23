@@ -1,4 +1,4 @@
- # Lunar Calendar API
+# Lunar Calendar API
 
 [![Pre-release](https://img.shields.io/badge/version-v0.2.3-blue?style=for-the-badge&logo=github)](https://github.com/hnthap/lunar-calendar-api)
 [![GitHub Stars](https://img.shields.io/github/stars/hnthap/lunar-calendar-api?style=for-the-badge&logo=github)](https://github.com/hnthap/lunar-calendar-api/stargazers)
