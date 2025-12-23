@@ -87,16 +87,6 @@ If the API key is missing or invalid, the server will respond with:
 ```
 API_KEY=your-secret-key-here
 ```
----
-
-### Update API Examples
-
-For each API example, add a note that the API key is required, e.g.:
-
-```http
-GET /v0/2/g2l?y=2024&m=7&d=19&z=7
-# Requires: Authorization header or ?api_key=...
-```
 
 ## Usage
 
